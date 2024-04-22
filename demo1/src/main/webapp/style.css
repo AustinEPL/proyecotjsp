@@ -1,0 +1,44 @@
+html{
+    background: #fafbff;
+}
+.contenedor{
+    width: 80% !important;
+    margin
+    : 50px auto;
+}
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+
+    padding: 15px;
+
+
+}
+
+#result{
+    thead {
+        background-color: #aaebef; /* Color de fondo del encabezado */
+    }
+
+    border-collapse: collapse;
+
+    td{
+
+            border: 3px double black; /* Grosor del borde, tipo de línea y color */
+
+    }
+}
+
+#btn{
+    background: skyblue;
+    height: 3em;
+    border: skyblue;
+    border-radius: 5px;
+}
+#btn:hover{
+    cursor: pointer;
+    background: #bbd2f3;
+}
